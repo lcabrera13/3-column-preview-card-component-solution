@@ -68,6 +68,7 @@ main section button {
     border: none;
     padding: 10px;
     border-radius: 20px;
+    border: 2px solid transparent;
 }
 
 .box-sedans {
@@ -78,6 +79,13 @@ main section button {
     color: var(--bright-orange);
 }
 
+.box-sedans button:hover {
+    background-color: var(--bright-orange);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
+}
+
 .box-suvs {
     background-color: var(--dark-cyan);
 }
@@ -86,12 +94,26 @@ main section button {
     color: var(--dark-cyan);
 }
 
+.box-suvs button:hover {
+    background-color: var(--dark-cyan);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
+}
+
 .box-luxury {
     background-color: var(--very-dark-cyan);
 }
 
 .box-luxury button {
     color: var(--very-dark-cyan);
+}
+
+.box-luxury button:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--transparent-white);
+    border: 2px solid var(--transparent-white);
+    cursor: pointer;
 }
 
 @media (min-width: 1000px) {
