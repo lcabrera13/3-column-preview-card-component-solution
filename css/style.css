@@ -124,6 +124,7 @@ main section button {
 
     main section p {
         margin-bottom: 65px;
+        min-height: 100px;
     }
 
     main section button {
