@@ -16,7 +16,7 @@
 }
 
 html {
-    font-size: 32.5%;
+    font-size: 62.5%;
 }
 
 body {
@@ -37,7 +37,7 @@ main {
 }
 
 main section {
-    padding: 30px 40px;
+    padding: 20px 30px;
 }
 
 main section img {
@@ -47,7 +47,7 @@ main section img {
 
 main section h2 {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 4rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     color: var(--very-light-gray);
     margin-bottom: 15px;
@@ -55,8 +55,8 @@ main section h2 {
 
 main section p {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
     color: var(--transparent-white);
     margin-bottom: 15px;
 }
@@ -64,7 +64,7 @@ main section p {
 main section button {
     width: 50%;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 2.1rem;
+    font-size: 1.2rem;
     border: none;
     padding: 10px;
     border-radius: 20px;
